@@ -19,12 +19,12 @@
   },
   "name":"Tanks",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_game_start","path":"rooms/rm_game_start/rm_game_start.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_game_start","path":"rooms/rm_game_start/rm_game_start.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
