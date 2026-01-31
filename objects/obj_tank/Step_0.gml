@@ -20,3 +20,4 @@ if abs(_inputNetHorizontal) || abs(_inputNetVertical) {
     y += lengthdir_y(movement_speed, facing_direction);
     image_speed = 1;
 };
+
