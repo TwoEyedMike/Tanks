@@ -14,7 +14,7 @@ if _inputNetVertical == 0 {
     _inputNetHorizontal = _holdingRightInput - _holdingLeftInput;
 };
 
-if _inputNetHorizontal || _inputNetVertical {
+if abs(_inputNetHorizontal) || abs(_inputNetVertical) {
     facing_direction = point_direction(0, 0, _inputNetHorizontal, _inputNetVertical);
     x += lengthdir_x(movement_speed, facing_direction);
     y += lengthdir_y(movement_speed, facing_direction);
