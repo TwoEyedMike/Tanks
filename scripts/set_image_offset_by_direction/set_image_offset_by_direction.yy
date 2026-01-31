@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"set_image_offset_by_direction",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"set_image_offset_by_direction",
+  "parent":{
+    "name":"functions",
+    "path":"folders/functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
