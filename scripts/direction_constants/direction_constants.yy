@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"direction_constants",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"direction_constants",
+  "parent":{
+    "name":"constants_macros",
+    "path":"folders/constants_macros.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
