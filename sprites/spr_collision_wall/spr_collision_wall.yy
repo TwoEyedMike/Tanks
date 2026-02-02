@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"wall",
-    "path":"folders/internal/collision/wall.yy",
+    "path":"folders/environment/collision/wall.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

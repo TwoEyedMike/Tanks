@@ -17,8 +17,15 @@ if _inputNetVertical == 0 {
 
 if abs(_inputNetHorizontal) || abs(_inputNetVertical) {
     facing_direction = point_direction(0, 0, _inputNetHorizontal, _inputNetVertical);
+    
     x += lengthdir_x(movement_speed, facing_direction);
     y += lengthdir_y(movement_speed, facing_direction);
+    
+    while place_meeting(x, y, obj_collidable) {
+        x -= lengthdir_x(movement_speed, facing_direction);
+        y -= lengthdir_y(movement_speed, facing_direction);
+    }
+    
     image_speed = 1;
 };
 

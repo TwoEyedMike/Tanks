@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_breakable_environment",
+  "%Name":"obj_collidable",
   "eventList":[],
   "managed":true,
-  "name":"obj_breakable_environment",
+  "name":"obj_collidable",
   "overriddenProperties":[],
   "parent":{
-    "name":"breakable",
-    "path":"folders/environment/breakable.yy",
+    "name":"environment",
+    "path":"folders/environment.yy",
   },
-  "parentObjectId":{
-    "name":"obj_collidable",
-    "path":"objects/obj_collidable/obj_collidable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,5 +29,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
