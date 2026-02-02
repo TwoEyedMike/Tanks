@@ -1,0 +1,1 @@
+draw_self_offset_by_direction(facing_direction);

@@ -38,6 +38,7 @@
   },
   "name":"Tanks",
   "resources":[
+    {"id":{"name":"obj_bullet_player","path":"objects/obj_bullet_player/obj_bullet_player.yy",},},
     {"id":{"name":"obj_collision_wall","path":"objects/obj_collision_wall/obj_collision_wall.yy",},},
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},},
     {"id":{"name":"obj_tank","path":"objects/obj_tank/obj_tank.yy",},},

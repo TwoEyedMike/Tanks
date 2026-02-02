@@ -14,6 +14,7 @@ if _inputNetVertical == 0 {
     _inputNetHorizontal = _holdingRightInput - _holdingLeftInput;
 };
 
+
 if abs(_inputNetHorizontal) || abs(_inputNetVertical) {
     facing_direction = point_direction(0, 0, _inputNetHorizontal, _inputNetVertical);
     x += lengthdir_x(movement_speed, facing_direction);
@@ -21,3 +22,10 @@ if abs(_inputNetHorizontal) || abs(_inputNetVertical) {
     image_speed = 1;
 };
 
+var _inputShoot = keyboard_check_pressed(vk_space);
+
+if _inputShoot {
+    var _facingDirectionToPass = facing_direction;
+    
+    instance_create_depth(x, y, depth, obj_bullet_player, { facing_direction : _facingDirectionToPass } );
+};
