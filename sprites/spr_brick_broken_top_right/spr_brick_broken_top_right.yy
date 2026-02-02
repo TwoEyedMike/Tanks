@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"brick",
-    "path":"folders/environment/brick.yy",
+    "path":"folders/environment/breakable/brick.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
