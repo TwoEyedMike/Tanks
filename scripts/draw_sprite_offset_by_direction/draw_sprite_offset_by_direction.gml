@@ -5,19 +5,19 @@ function draw_self_offset_by_direction(_direction) {
     var _xOffset, _yOffset;
     
     switch (_direction) {
-        case 0: //Right
+        case CARDINAL_DIRECTION.RIGHT: //Right
             _xOffset = 0;
             _yOffset = 0;
             break;
-        case 90: //Up
+        case CARDINAL_DIRECTION.UP: //Up
             _xOffset = 0;
             _yOffset = _spriteSize;
             break;
-        case 180: //Left
+        case CARDINAL_DIRECTION.LEFT: //Left
             _xOffset = _spriteSize;
             _yOffset = _spriteSize;
             break;
-        case 270: //Down
+        case CARDINAL_DIRECTION.DOWN: //Down
             _xOffset = _spriteSize;
             _yOffset = 0;
             break;

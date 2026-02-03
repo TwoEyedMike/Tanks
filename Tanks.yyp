@@ -53,6 +53,7 @@
     {"id":{"name":"rm_level0_test","path":"rooms/rm_level0_test/rm_level0_test.yy",},},
     {"id":{"name":"direction_constants","path":"scripts/direction_constants/direction_constants.yy",},},
     {"id":{"name":"draw_sprite_offset_by_direction","path":"scripts/draw_sprite_offset_by_direction/draw_sprite_offset_by_direction.yy",},},
+    {"id":{"name":"Script3","path":"scripts/Script3/Script3.yy",},},
     {"id":{"name":"spr_brick_broken_bottom_left","path":"sprites/spr_brick_broken_bottom_left/spr_brick_broken_bottom_left.yy",},},
     {"id":{"name":"spr_brick_broken_bottom_right","path":"sprites/spr_brick_broken_bottom_right/spr_brick_broken_bottom_right.yy",},},
     {"id":{"name":"spr_brick_broken_top_left","path":"sprites/spr_brick_broken_top_left/spr_brick_broken_top_left.yy",},},
