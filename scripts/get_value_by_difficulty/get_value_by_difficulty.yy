@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_value_by_difficulty",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_value_by_difficulty",
+  "parent":{
+    "name":"functions",
+    "path":"folders/functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

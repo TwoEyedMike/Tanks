@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script3",
+  "%Name":"difficulty_constants",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script3",
+  "name":"difficulty_constants",
   "parent":{
-    "name":"functions",
-    "path":"folders/functions.yy",
+    "name":"constants_macros",
+    "path":"folders/constants_macros.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
