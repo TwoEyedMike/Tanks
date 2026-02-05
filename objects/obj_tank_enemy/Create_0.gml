@@ -8,7 +8,7 @@ hitpoints = 40;
 
 //Min and max number of frames the tank can choose to move for in a given "movement period"
 min_movement_period_frames = 2;
-max_movement_period_frames = 30;
+max_movement_period_frames = 90;
 
 //Min and max number of frames the tank can choose to wait for inbetween "movement periods"
 min_wait_frames = 5;
