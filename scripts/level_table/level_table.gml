@@ -1,7 +1,7 @@
 function LevelDefinition(_room, _easyEnemyCount, _normalEnemyCount, _hardEnemyCount, _easyMaxActiveEnemies, _normalMaxActiveEnemies, _hardMaxActiveEnemies) constructor {
     room_index = _room;
     enemy_count = [_easyEnemyCount, _normalEnemyCount, _hardEnemyCount];
-    max_active_enemeis = [_easyMaxActiveEnemies, _normalMaxActiveEnemies, _hardMaxActiveEnemies];
+    max_active_enemies = [_easyMaxActiveEnemies, _normalMaxActiveEnemies, _hardMaxActiveEnemies];
 };
 
 //Level table to consult for a level's room and enemy counts.

@@ -17,11 +17,14 @@ if is_spawning {
 else {
     image_speed = 0.3;
     
-    if frames_until_next_spawning > 0 {
-        frames_until_next_spawning--;
-    }
-    else {
-        is_spawning = true;
-        frames_until_spawn_finished = spawning_length_frames;
-    };
+    if global.enemy_count > 0 && instance_number(obj_tank_enemy) < global.max_active_enemies {
+        if frames_until_next_spawning > 0 {
+            frames_until_next_spawning--;
+        }
+        else {
+            is_spawning = true;
+            frames_until_spawn_finished = spawning_length_frames;
+            global.enemy_count--;
+        };
+    };    
 };
