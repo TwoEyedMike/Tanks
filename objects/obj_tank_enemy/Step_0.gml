@@ -16,7 +16,7 @@ if movement_period_frames_remaining > 0 {
     x += lengthdir_x(movement_speed, facing_direction);
     y += lengthdir_y(movement_speed, facing_direction);
       
-    while place_meeting(x, y, obj_collidable) { 
+    while place_meeting(x, y, [obj_collidable, obj_collision_water]) { 
         x -= lengthdir_x(movement_speed, facing_direction);
         y -= lengthdir_y(movement_speed, facing_direction);
     };

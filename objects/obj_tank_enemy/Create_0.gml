@@ -33,7 +33,7 @@ do_pathfinding = function() {
         var _projectedPositionX = x + lengthdir_x(movement_speed, _currentAngle);
         var _projectedPositionY = y + lengthdir_y(movement_speed, _currentAngle);
         
-        if (abs(facing_direction - _currentAngle) != 180) && !place_meeting(_projectedPositionX, _projectedPositionY, obj_collidable) {
+        if (abs(facing_direction - _currentAngle) != 180) && !place_meeting(_projectedPositionX, _projectedPositionY, [obj_collidable, obj_collision_water]) {
             ds_list_add(_possibleDirectionList, new PossibleDirectionChoice(_currentAngle, _projectedPositionX, _projectedPositionY));
         };
         
