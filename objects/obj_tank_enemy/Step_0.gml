@@ -1,3 +1,5 @@
+SKIP_IF_PAUSED
+
 if wait_frames_remaining = 0 {
     do_pathfinding();
     wait_frames_remaining = -1;

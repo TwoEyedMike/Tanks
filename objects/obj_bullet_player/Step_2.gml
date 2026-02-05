@@ -1,3 +1,5 @@
+SKIP_IF_PAUSED
+
 var _isDestroyingSelfAfterEvent = false; //Need to do this so bullet gets a chance to check collisions with multiple classes of objects before destroying itself.
 
 if place_meeting(x, y, obj_collidable) {

@@ -57,6 +57,7 @@
     {"id":{"name":"direction_constants","path":"scripts/direction_constants/direction_constants.yy",},},
     {"id":{"name":"draw_sprite_offset_by_direction","path":"scripts/draw_sprite_offset_by_direction/draw_sprite_offset_by_direction.yy",},},
     {"id":{"name":"get_value_by_difficulty","path":"scripts/get_value_by_difficulty/get_value_by_difficulty.yy",},},
+    {"id":{"name":"misc_macros","path":"scripts/misc_macros/misc_macros.yy",},},
     {"id":{"name":"spr_brick_broken_bottom_left","path":"sprites/spr_brick_broken_bottom_left/spr_brick_broken_bottom_left.yy",},},
     {"id":{"name":"spr_brick_broken_bottom_right","path":"sprites/spr_brick_broken_bottom_right/spr_brick_broken_bottom_right.yy",},},
     {"id":{"name":"spr_brick_broken_top_left","path":"sprites/spr_brick_broken_top_left/spr_brick_broken_top_left.yy",},},

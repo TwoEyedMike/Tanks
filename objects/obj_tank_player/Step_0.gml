@@ -1,3 +1,5 @@
+SKIP_IF_PAUSED
+
 var _inputNetHorizontal = 0;
 var _inputNetVertical = 0;
 
