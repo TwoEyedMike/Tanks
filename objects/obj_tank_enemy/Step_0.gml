@@ -31,6 +31,6 @@ if movement_period_frames_remaining > 0 {
     
     if _redoPathfinding {
         movement_period_frames_remaining = 0;
-    }
+    };
 };
 
