@@ -20,8 +20,13 @@ if _inputNetVertical == 0 {
 if abs(_inputNetHorizontal) || abs(_inputNetVertical) {
     facing_direction = point_direction(0, 0, _inputNetHorizontal, _inputNetVertical);
     
-    x += lengthdir_x(movement_speed, facing_direction);
-    y += lengthdir_y(movement_speed, facing_direction);
+    var _projectedPositionX = x + lengthdir_x(movement_speed, facing_direction);
+    var _projectedPositionY = y + lengthdir_y(movement_speed, facing_direction);
+    
+    if !place_meeting(_projectedPositionX, _projectedPositionY, obj_tank_enemy) {
+        x = _projectedPositionX;
+        y = _projectedPositionY;
+    };
     
     while place_meeting(x, y, [obj_collidable, obj_collision_water]) {
         x -= lengthdir_x(movement_speed, facing_direction);
