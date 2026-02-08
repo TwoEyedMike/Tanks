@@ -20,7 +20,7 @@ if movement_period_frames_remaining > 0 {
     var _projectedPositionX = x + lengthdir_x(movement_speed, facing_direction);
     var _projectedPositionY = y + lengthdir_y(movement_speed, facing_direction);
     
-    if !place_meeting(_projectedPositionX, _projectedPositionY, [obj_tank_enemy, obj_tank_player] ) {
+    if !place_meeting(_projectedPositionX, _projectedPositionY, [obj_tank] ) {
         x = _projectedPositionX;
         y = _projectedPositionY;
     };

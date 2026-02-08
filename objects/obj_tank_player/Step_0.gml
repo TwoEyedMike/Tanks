@@ -23,7 +23,7 @@ if abs(_inputNetHorizontal) || abs(_inputNetVertical) {
     var _projectedPositionX = x + lengthdir_x(movement_speed, facing_direction);
     var _projectedPositionY = y + lengthdir_y(movement_speed, facing_direction);
     
-    if !place_meeting(_projectedPositionX, _projectedPositionY, obj_tank_enemy) {
+    if !place_meeting(_projectedPositionX, _projectedPositionY, obj_tank) {
         x = _projectedPositionX;
         y = _projectedPositionY;
     };
