@@ -47,3 +47,7 @@ if shoot_cooldown_frames_remaining == 0 {
 else {
     shoot_cooldown_frames_remaining--
 };
+
+if hitpoints <= 0 {
+    instance_destroy(self);
+};
