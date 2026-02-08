@@ -15,7 +15,10 @@
     "name":"enemy",
     "path":"folders/enemy.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_tank",
+    "path":"objects/obj_tank/obj_tank.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

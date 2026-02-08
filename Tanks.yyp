@@ -53,6 +53,7 @@
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"obj_tank_enemy","path":"objects/obj_tank_enemy/obj_tank_enemy.yy",},},
     {"id":{"name":"obj_tank_player","path":"objects/obj_tank_player/obj_tank_player.yy",},},
+    {"id":{"name":"obj_tank","path":"objects/obj_tank/obj_tank.yy",},},
     {"id":{"name":"rm_game_start","path":"rooms/rm_game_start/rm_game_start.yy",},},
     {"id":{"name":"rm_level0_test","path":"rooms/rm_level0_test/rm_level0_test.yy",},},
     {"id":{"name":"rm_level1_pond","path":"rooms/rm_level1_pond/rm_level1_pond.yy",},},
