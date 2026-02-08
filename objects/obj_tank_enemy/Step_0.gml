@@ -45,5 +45,5 @@ if shoot_cooldown_frames_remaining == 0 {
     shoot_cooldown_frames_remaining = irandom_range(min_shoot_cooldown, max_shoot_cooldown);
 }
 else {
-    //shoot_cooldown_frames_remaining--
+    shoot_cooldown_frames_remaining--
 };
