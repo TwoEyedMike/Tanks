@@ -1,6 +1,6 @@
 SKIP_IF_PAUSED
 
-if wait_frames_remaining = 0 {
+if wait_frames_remaining == 0 {
     do_pathfinding();
     wait_frames_remaining = -1;
 }
@@ -9,7 +9,7 @@ if wait_frames_remaining > 0 {
     wait_frames_remaining--;
 };
 
-if movement_period_frames_remaining = 0 {
+if movement_period_frames_remaining == 0 {
     wait_frames_remaining = irandom_range(min_wait_frames, max_wait_frames);
     movement_period_frames_remaining = -1;
 };
@@ -37,6 +37,9 @@ if movement_period_frames_remaining > 0 {
     if shoot_cooldown_frames_remaining == 0 {
         shoot_bullet(obj_bullet_enemy, facing_direction);
         shoot_cooldown_frames = irandom_range(min_shoot_cooldown, max_shoot_cooldown);
+    }
+    else {
+        shoot_cooldown_frames_remaining--
     };
     
     if _redoPathfinding {
