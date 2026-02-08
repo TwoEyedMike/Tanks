@@ -14,6 +14,11 @@ max_movement_period_frames = 30;
 min_wait_frames = 5;
 max_wait_frames = 45;
 
+//Min and max number of frames the tank can choose to wait between firing of bullets
+min_shoot_cooldown = 10;
+max_shoot_cooldown = 60;
+
+shoot_cooldown_frames_remaining = irandom_range(min_shoot_cooldown, max_shoot_cooldown);
 movement_period_frames_remaining = 0;
 wait_frames_remaining = 1
 

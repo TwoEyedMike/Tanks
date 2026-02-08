@@ -34,6 +34,11 @@ if movement_period_frames_remaining > 0 {
     image_speed = 1;
     movement_period_frames_remaining--;
     
+    if shoot_cooldown_frames_remaining == 0 {
+        shoot_bullet(obj_bullet_enemy, facing_direction);
+        shoot_cooldown_frames = irandom_range(min_shoot_cooldown, max_shoot_cooldown);
+    };
+    
     if _redoPathfinding {
         movement_period_frames_remaining = 0;
     };
