@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet_player",
+  "%Name":"obj_bullet_enemy",
   "eventList":[],
   "managed":true,
-  "name":"obj_bullet_player",
+  "name":"obj_bullet_enemy",
   "overriddenProperties":[],
   "parent":{
     "name":"bullet",

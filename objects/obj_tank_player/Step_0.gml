@@ -39,7 +39,5 @@ if abs(_inputNetHorizontal) || abs(_inputNetVertical) {
 var _inputShoot = keyboard_check_pressed(vk_space);
 
 if _inputShoot {
-    var _facingDirectionToPass = facing_direction;
-    
-    instance_create_depth(x, y, depth, obj_bullet_player, { facing_direction : _facingDirectionToPass } );
+    shoot_bullet(obj_bullet_player, facing_direction);
 };

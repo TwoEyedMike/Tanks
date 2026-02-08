@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"shoot_bullet",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"shoot_bullet",
+  "parent":{
+    "name":"functions",
+    "path":"folders/functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

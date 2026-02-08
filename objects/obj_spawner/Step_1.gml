@@ -9,9 +9,11 @@ if is_spawning {
         frames_until_spawn_finished--;
     }
     else {
-        instance_create_depth(x, y, depth, obj_tank_enemy);
-        is_spawning = false;
-        frames_until_next_spawning = frames_between_spawns;
+        if !place_meeting(x, y, obj_tank) {
+            instance_create_depth(x, y, depth, obj_tank_enemy);
+            is_spawning = false;
+            frames_until_next_spawning = frames_between_spawns;
+        };
     };
 }
 else {
