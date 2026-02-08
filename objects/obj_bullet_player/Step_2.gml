@@ -7,7 +7,7 @@ instance_place_list(x, y, obj_tank_enemy, _collidedInstancesList, false);
 
 while !ds_list_empty(_collidedInstancesList) {
     var _instance = _collidedInstancesList[| 0];
-    _instance.hitpoints -= 40;
+    _instance.hitpoints -= damage;
     ds_list_delete(_collidedInstancesList, 0);
     is_destroying_self_after_end_step = true;
 }; 
