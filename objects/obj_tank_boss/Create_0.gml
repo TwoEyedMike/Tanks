@@ -4,6 +4,11 @@ movement_speed = 0.5; //How many pixels to move per frame while holding a moveme
 image_speed = 0; //Image speed 0 unless set to 1 while moving to make tank treads anim work.
 hitpoints = 40; 
 
+//Radial shot variables
+radial_shot_frequency = get_value_by_difficulty(240, 180, 120);
+radial_shot_timer_frames = 0;
+radial_shot_density = get_value_by_difficulty(8, 12, 16);
+
 //AI-Related Variables
 
 //Min and max number of frames the tank can choose to move for in a given "movement period"
@@ -14,11 +19,6 @@ max_movement_period_frames = get_value_by_difficulty(30, 30, 30);
 min_wait_frames = 1;
 max_wait_frames = 1;
     
-//Min and max number of frames the tank can choose to wait between firing of bullets
-min_shoot_cooldown = get_value_by_difficulty(180, 90, 45);
-max_shoot_cooldown = get_value_by_difficulty(240, 180, 120);
-
-shoot_cooldown_frames_remaining = irandom_range(min_shoot_cooldown, max_shoot_cooldown);
 movement_period_frames_remaining = 0;
 wait_frames_remaining = 1
 
@@ -72,3 +72,10 @@ do_pathfinding = function() {
     movement_period_frames_remaining = irandom_range(min_movement_period_frames, max_movement_period_frames);
 };
     
+shoot_ring = function(_density) {
+    var _angleIncrement = 360 / _density;
+    for (var _loop = 0; _loop < _density; _loop++) {
+        var _fireAngle = _angleIncrement * _loop;
+        instance_create_depth(x, y, depth - 1, obj_fireball, {facing_direction: _angleIncrement * _loop});
+    };
+};
