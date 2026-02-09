@@ -1,1 +1,2 @@
-hitpoints = 50;
+starting_hitpoints = 50;
+hitpoints = starting_hitpoints;
