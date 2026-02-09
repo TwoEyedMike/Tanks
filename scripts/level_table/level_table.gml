@@ -10,5 +10,6 @@ global.level_table = [
     new LevelDefinition(rm_level1_pond,         8,  12, 18,     2, 4, 6),
     new LevelDefinition(rm_level2_digging,      12, 12, 15,     4, 3, 3),
     new LevelDefinition(rm_level3_maze,         9, 24, 32,      3, 6, 8),
-    new LevelDefinition(rm_level4_surrounded,   16, 20, 48,     4, 4, 8)
+    new LevelDefinition(rm_level4_surrounded,   16, 20, 48,     4, 4, 8),
+    new LevelDefinition(rm_level5_boss,         0,  0,  0,      18, 18, 18) //0 Enemy count as boss manually triggers the spawners. Max of 18 enemy tanks at once.
 ];

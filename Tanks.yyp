@@ -69,6 +69,7 @@
     {"id":{"name":"rm_level2_digging","path":"rooms/rm_level2_digging/rm_level2_digging.yy",},},
     {"id":{"name":"rm_level3_maze","path":"rooms/rm_level3_maze/rm_level3_maze.yy",},},
     {"id":{"name":"rm_level4_surrounded","path":"rooms/rm_level4_surrounded/rm_level4_surrounded.yy",},},
+    {"id":{"name":"rm_level5_boss","path":"rooms/rm_level5_boss/rm_level5_boss.yy",},},
     {"id":{"name":"difficulty_constants","path":"scripts/difficulty_constants/difficulty_constants.yy",},},
     {"id":{"name":"direction_constants","path":"scripts/direction_constants/direction_constants.yy",},},
     {"id":{"name":"draw_sprite_offset_by_direction","path":"scripts/draw_sprite_offset_by_direction/draw_sprite_offset_by_direction.yy",},},
@@ -110,6 +111,7 @@
     {"roomId":{"name":"rm_level2_digging","path":"rooms/rm_level2_digging/rm_level2_digging.yy",},},
     {"roomId":{"name":"rm_level3_maze","path":"rooms/rm_level3_maze/rm_level3_maze.yy",},},
     {"roomId":{"name":"rm_level4_surrounded","path":"rooms/rm_level4_surrounded/rm_level4_surrounded.yy",},},
+    {"roomId":{"name":"rm_level5_boss","path":"rooms/rm_level5_boss/rm_level5_boss.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
