@@ -1,3 +1,7 @@
+if room = rm_level5_boss {
+    exit;
+};
+
 draw_self();
 draw_sprite(spr_objective, 0, x-16, y);
 

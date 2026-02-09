@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"Sound6",
+  "%Name":"sfx_explode",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.29612246,
+  "duration":0.6345125,
   "exportDir":"",
-  "name":"Sound6",
+  "name":"sfx_explode",
   "parent":{
     "name":"sfx",
     "path":"folders/sfx.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sound6.wav",
+  "soundFile":"sfx_explode.wav",
   "volume":1.0,
 }
