@@ -45,6 +45,8 @@
   },
   "name":"Tanks",
   "resources":[
+    {"id":{"name":"font_big","path":"fonts/font_big/font_big.yy",},},
+    {"id":{"name":"font_small","path":"fonts/font_small/font_small.yy",},},
     {"id":{"name":"obj_boss_hp_bar","path":"objects/obj_boss_hp_bar/obj_boss_hp_bar.yy",},},
     {"id":{"name":"obj_breakable_environment","path":"objects/obj_breakable_environment/obj_breakable_environment.yy",},},
     {"id":{"name":"obj_brick_broken","path":"objects/obj_brick_broken/obj_brick_broken.yy",},},
