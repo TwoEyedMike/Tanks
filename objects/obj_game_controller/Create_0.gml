@@ -15,9 +15,11 @@ do_title_screen_update = function() {
     //Handle pressing left/right to adjust difficulty
     if keyboard_check_pressed(vk_left) {
         global.current_difficulty--;
+        audio_play_sound(sfx_scroll, 1, false);
     };
     if keyboard_check_pressed(vk_right) {
         global.current_difficulty++;
+        audio_play_sound(sfx_scroll, 1, false);
     };
     global.current_difficulty = clamp(global.current_difficulty, DIFFICULTY.EASY, DIFFICULTY.HARD);
     

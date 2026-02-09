@@ -36,6 +36,7 @@
     {"name":"inst_18A33DAD","path":"rooms/rm_level5_boss/rm_level5_boss.yy",},
     {"name":"inst_559C7160","path":"rooms/rm_level5_boss/rm_level5_boss.yy",},
     {"name":"inst_5CDFA5C6","path":"rooms/rm_level5_boss/rm_level5_boss.yy",},
+    {"name":"inst_30980691","path":"rooms/rm_level5_boss/rm_level5_boss.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -76,6 +77,7 @@
         {"$GMRInstance":"v4","%Name":"inst_7B05ADD9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B05ADD9","objectId":{"name":"obj_collision_wall","path":"objects/obj_collision_wall/obj_collision_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":240.0,"y":80.0,},
         {"$GMRInstance":"v4","%Name":"inst_544FE943","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_544FE943","objectId":{"name":"obj_tank_player","path":"objects/obj_tank_player/obj_tank_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":152.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_5CDFA5C6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5CDFA5C6","objectId":{"name":"obj_tank_boss","path":"objects/obj_tank_boss/obj_tank_boss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":104.0,},
+        {"$GMRInstance":"v4","%Name":"inst_30980691","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30980691","objectId":{"name":"obj_boss_hp_bar","path":"objects/obj_boss_hp_bar/obj_boss_hp_bar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":280.0,"y":224.0,},
       ],"layers":[],"name":"Instances_All","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":20,"TileCompressedData":[
           -2,-2147483648,-8,0,-7,-2147483648,-3,0,-20,2,1,3,-18,1,-2,3,-18,1,-2,3,-3,1,-2,3,1,2,-6,1,3,2,3,3,-3,

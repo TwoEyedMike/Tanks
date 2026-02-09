@@ -2,7 +2,9 @@
 facing_direction = CARDINAL_DIRECTION.DOWN; //Not using built-in "direction" var as we are not utilizing GM's built-in movement functions
 movement_speed = 0.5; //How many pixels to move per frame while holding a movement input
 image_speed = 0; //Image speed 0 unless set to 1 while moving to make tank treads anim work.
-hitpoints = 40; 
+
+starting_hitpoints = 500;
+hitpoints = starting_hitpoints;
 
 //Radial shot variables
 radial_shot_frequency = get_value_by_difficulty(240, 180, 120);
@@ -78,4 +80,6 @@ shoot_ring = function(_density) {
         var _fireAngle = _angleIncrement * _loop;
         instance_create_depth(x, y, depth - 1, obj_fireball, {facing_direction: _angleIncrement * _loop});
     };
+    
+    audio_play_sound(sfx_shoot, 1, false);
 };

@@ -45,6 +45,7 @@
   },
   "name":"Tanks",
   "resources":[
+    {"id":{"name":"obj_boss_hp_bar","path":"objects/obj_boss_hp_bar/obj_boss_hp_bar.yy",},},
     {"id":{"name":"obj_breakable_environment","path":"objects/obj_breakable_environment/obj_breakable_environment.yy",},},
     {"id":{"name":"obj_brick_broken","path":"objects/obj_brick_broken/obj_brick_broken.yy",},},
     {"id":{"name":"obj_brick_complete","path":"objects/obj_brick_complete/obj_brick_complete.yy",},},
@@ -83,7 +84,9 @@
     {"id":{"name":"shoot_bullet","path":"scripts/shoot_bullet/shoot_bullet.yy",},},
     {"id":{"name":"mus_gameplay","path":"sounds/mus_gameplay/mus_gameplay.yy",},},
     {"id":{"name":"sfx_hit","path":"sounds/sfx_hit/sfx_hit.yy",},},
+    {"id":{"name":"sfx_scroll","path":"sounds/sfx_scroll/sfx_scroll.yy",},},
     {"id":{"name":"sfx_shoot","path":"sounds/sfx_shoot/sfx_shoot.yy",},},
+    {"id":{"name":"spr_boss_icon","path":"sprites/spr_boss_icon/spr_boss_icon.yy",},},
     {"id":{"name":"spr_brick_broken_bottom_left","path":"sprites/spr_brick_broken_bottom_left/spr_brick_broken_bottom_left.yy",},},
     {"id":{"name":"spr_brick_broken_bottom_right","path":"sprites/spr_brick_broken_bottom_right/spr_brick_broken_bottom_right.yy",},},
     {"id":{"name":"spr_brick_broken_top_left","path":"sprites/spr_brick_broken_top_left/spr_brick_broken_top_left.yy",},},
