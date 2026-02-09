@@ -6,6 +6,9 @@ global.max_active_enemies = 0;
 global.is_game_paused = false; //Initialized the global game paused variable for the pause feature.
 global.game_state = GAME_STATE.TITLE
 
+
+difficulty_names = ["EASY", "NORMAL", "HARD"];
+
 //Code to run in the begin step event when on the title screen
 do_title_screen_update = function() {
     
@@ -39,3 +42,5 @@ do_gameplay_update = function() {
         global.is_game_paused = !global.is_game_paused;
     };
 };
+
+
