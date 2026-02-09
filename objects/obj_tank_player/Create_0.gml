@@ -4,3 +4,13 @@ movement_speed = 1; //How many pixels to move per frame while holding a movement
 image_speed = 0; //Image speed 0 unless set to 1 while moving to make tank treads anim work.
 starting_hitpoints = 100;
 hitpoints = starting_hitpoints;
+
+//Powerups
+raft_powerup_frame_duration = 360;
+raft_powerup_frames_left = 0;
+
+shield_powerup_frame_duration = 560;
+shield_powerup_frames_left = 0;
+
+drill_powerup_frame_duration = 360;
+drill_powerup_frames_left = 0;

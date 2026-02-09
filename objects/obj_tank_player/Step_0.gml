@@ -28,7 +28,14 @@ if abs(_inputNetHorizontal) || abs(_inputNetVertical) {
         y = _projectedPositionY;
     };
     
-    while place_meeting(x, y, [obj_collidable, obj_collision_water]) {
+    var _collidable;
+    if raft_powerup_frames_left <= 0 {
+        _collidable = [obj_collidable, obj_collision_water];
+    }
+    else {
+        _collidable = obj_collidable;
+    };
+    while place_meeting(x, y, _collidable) {
         x -= lengthdir_x(movement_speed, facing_direction);
         y -= lengthdir_y(movement_speed, facing_direction);
     }

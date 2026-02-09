@@ -9,3 +9,12 @@ if hitpoints <= 0 {
         instance_create_depth(x, y, depth, obj_tank_player_destroyed, {facing_direction : _facingDirectionToPass });
     };
 };
+
+if raft_powerup_frames_left > 0 {
+    raft_powerup_frames_left--
+    if place_meeting(x, y, obj_collision_water) {
+        raft_powerup_frames_left = 1;
+    };
+};
+
+shield_powerup_frames_left = max(shield_powerup_frames_left-1, 0)
