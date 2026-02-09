@@ -3,7 +3,7 @@ SKIP_IF_PAUSED
 is_destroying_self_after_end_step = false; //Need to do this so bullet gets a chance to check collisions with multiple classes of objects before destroying itself.
 
 if place_meeting(x, y, obj_collidable) {
-    _isDestroyingSelfAfterEvent = true;
+    is_destroying_self_after_end_step = true;
 };
 
 var _collidedInstancesList = ds_list_create();
