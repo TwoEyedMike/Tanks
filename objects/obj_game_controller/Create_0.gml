@@ -40,7 +40,7 @@ go_to_level = function(_levelIndex) {
 };
 
 do_gameplay_update = function() {
-    if keyboard_check_pressed(vk_escape) && !instance_exists(obj_hud_ready) && !instance_exists(obj_tank_boss_destroyed) {
+    if keyboard_check_pressed(vk_escape) && !instance_exists(obj_hud_ready) && !instance_exists(obj_tank_boss_destroyed) && !instance_exists(obj_tank_player_destroyed) {
         global.is_game_paused = !global.is_game_paused;
         
         audio_play_sound(sfx_pause, 1, false);

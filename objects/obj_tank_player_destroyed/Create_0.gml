@@ -1,0 +1,1 @@
+frames_before_destroy = 120;

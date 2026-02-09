@@ -1,0 +1,1 @@
+instance_create_depth(room_width / 2, room_width / 2, -100, obj_lose);
