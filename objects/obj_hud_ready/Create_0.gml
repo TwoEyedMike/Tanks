@@ -1,12 +1,14 @@
-alarm[0] = 120
+alarm[1] = 120; //Turn invisible and have 2 second cooldown before level starts
+
 
 
 var _levelNames = [
-    "LEVEL 1 - THE POND",
-    "LEVEL 2 - DIGGING AROUND",
-    "LEVEL 3 - THE MAZE",
-    "LEVEL 4 - SURROUNDED",
-    "FINAL FIGHT - COMPLETE THE MISSION!"
+    "LEVEL 0\nTEST",
+    "LEVEL 1\nTHE POND",
+    "LEVEL 2\nDIGGING AROUND",
+    "LEVEL 3\nTHE MAZE",
+    "LEVEL 4\nSURROUNDED",
+    "FINAL FIGHT\nCOMPLETE THE MISSION!"
 ];
 
 
