@@ -89,6 +89,7 @@
     {"id":{"name":"shoot_bullet","path":"scripts/shoot_bullet/shoot_bullet.yy",},},
     {"id":{"name":"mus_gameplay","path":"sounds/mus_gameplay/mus_gameplay.yy",},},
     {"id":{"name":"sfx_hit","path":"sounds/sfx_hit/sfx_hit.yy",},},
+    {"id":{"name":"sfx_pause","path":"sounds/sfx_pause/sfx_pause.yy",},},
     {"id":{"name":"sfx_scroll","path":"sounds/sfx_scroll/sfx_scroll.yy",},},
     {"id":{"name":"sfx_shoot","path":"sounds/sfx_shoot/sfx_shoot.yy",},},
     {"id":{"name":"spr_boss_icon","path":"sprites/spr_boss_icon/spr_boss_icon.yy",},},

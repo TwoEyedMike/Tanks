@@ -43,6 +43,8 @@ do_gameplay_update = function() {
     if keyboard_check_pressed(vk_escape) && !instance_exists(obj_hud_ready) {
         global.is_game_paused = !global.is_game_paused;
         
+        audio_play_sound(sfx_pause, 1, false);
+        
         if instance_exists(obj_pause) {
             instance_destroy(obj_pause);
         }
