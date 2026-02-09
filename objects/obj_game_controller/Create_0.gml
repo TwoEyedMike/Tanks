@@ -42,6 +42,13 @@ go_to_level = function(_levelIndex) {
 do_gameplay_update = function() {
     if keyboard_check_pressed(vk_escape) && !instance_exists(obj_hud_ready) {
         global.is_game_paused = !global.is_game_paused;
+        
+        if instance_exists(obj_pause) {
+            instance_destroy(obj_pause);
+        }
+        else {
+            instance_create_depth(room_width/2, room_height/2, -100, obj_pause);
+        };
     };
 };
 

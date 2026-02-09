@@ -64,6 +64,7 @@
     {"id":{"name":"obj_hud_ready","path":"objects/obj_hud_ready/obj_hud_ready.yy",},},
     {"id":{"name":"obj_objective_hp_bar","path":"objects/obj_objective_hp_bar/obj_objective_hp_bar.yy",},},
     {"id":{"name":"obj_objective","path":"objects/obj_objective/obj_objective.yy",},},
+    {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
     {"id":{"name":"obj_player_hp_bar","path":"objects/obj_player_hp_bar/obj_player_hp_bar.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"obj_tank_boss","path":"objects/obj_tank_boss/obj_tank_boss.yy",},},
