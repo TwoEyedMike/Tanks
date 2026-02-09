@@ -7,7 +7,7 @@ hitpoints = 40;
 //AI-Related Variables
 
 //Min and max number of frames the tank can choose to move for in a given "movement period"
-min_movement_period_frames = get_value_by_difficulty(60, 30, 15);
+min_movement_period_frames = get_value_by_difficulty(60, 30, 5);
 max_movement_period_frames = get_value_by_difficulty(120, 60, 30);
 
 //Min and max number of frames the tank can choose to wait for inbetween "movement periods"
@@ -15,8 +15,8 @@ min_wait_frames = get_value_by_difficulty(30, 20, 10);
 max_wait_frames = get_value_by_difficulty(90, 60, 30);
     
 //Min and max number of frames the tank can choose to wait between firing of bullets
-min_shoot_cooldown = get_value_by_difficulty(60, 30, 20);
-max_shoot_cooldown = get_value_by_difficulty(180, 90, 60);
+min_shoot_cooldown = get_value_by_difficulty(180, 90, 45);
+max_shoot_cooldown = get_value_by_difficulty(240, 180, 120);
 
 shoot_cooldown_frames_remaining = irandom_range(min_shoot_cooldown, max_shoot_cooldown);
 movement_period_frames_remaining = 0;
