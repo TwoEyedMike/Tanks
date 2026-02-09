@@ -92,7 +92,7 @@ shoot_ring = function(_density) {
     var _angleIncrement = 360 / _density;
     for (var _loop = 0; _loop < _density; _loop++) {
         var _fireAngle = _angleIncrement * _loop;
-        instance_create_depth(x, y, depth - 1, obj_fireball, {facing_direction: _angleIncrement * _loop});
+        instance_create_depth(x+16, y+16, depth - 1, obj_fireball, {facing_direction: _angleIncrement * _loop});
     };
     
     audio_play_sound(sfx_shoot, 1, false);
