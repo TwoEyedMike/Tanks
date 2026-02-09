@@ -1,4 +1,5 @@
 draw_self();
+draw_sprite(spr_tank_player, 0, x-16, y);
 
 var _greenBarX = x + 3;
 var _greenBarY = y + 8;
