@@ -62,6 +62,7 @@
     {"id":{"name":"rm_level0_test","path":"rooms/rm_level0_test/rm_level0_test.yy",},},
     {"id":{"name":"rm_level1_pond","path":"rooms/rm_level1_pond/rm_level1_pond.yy",},},
     {"id":{"name":"rm_level2_digging","path":"rooms/rm_level2_digging/rm_level2_digging.yy",},},
+    {"id":{"name":"rm_level3_maze","path":"rooms/rm_level3_maze/rm_level3_maze.yy",},},
     {"id":{"name":"difficulty_constants","path":"scripts/difficulty_constants/difficulty_constants.yy",},},
     {"id":{"name":"direction_constants","path":"scripts/direction_constants/direction_constants.yy",},},
     {"id":{"name":"draw_sprite_offset_by_direction","path":"scripts/draw_sprite_offset_by_direction/draw_sprite_offset_by_direction.yy",},},
@@ -96,6 +97,7 @@
     {"roomId":{"name":"rm_level0_test","path":"rooms/rm_level0_test/rm_level0_test.yy",},},
     {"roomId":{"name":"rm_level1_pond","path":"rooms/rm_level1_pond/rm_level1_pond.yy",},},
     {"roomId":{"name":"rm_level2_digging","path":"rooms/rm_level2_digging/rm_level2_digging.yy",},},
+    {"roomId":{"name":"rm_level3_maze","path":"rooms/rm_level3_maze/rm_level3_maze.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
