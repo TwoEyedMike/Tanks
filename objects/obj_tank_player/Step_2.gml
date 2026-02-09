@@ -12,7 +12,7 @@ if hitpoints <= 0 {
 
 if raft_powerup_frames_left > 0 {
     raft_powerup_frames_left--
-    if place_meeting(x, y, obj_collision_water) {
+    if place_meeting(x, y, obj_collision_water) && raft_powerup_frames_left == 0 {
         raft_powerup_frames_left = 1;
     };
 };
