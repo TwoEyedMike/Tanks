@@ -22,6 +22,10 @@ shoot_cooldown_frames_remaining = irandom_range(min_shoot_cooldown, max_shoot_co
 movement_period_frames_remaining = 0;
 wait_frames_remaining = 1
 
+//Keep enemies remaining counter synced
+obj_enemy_remaining.enemies_remaining--;
+
+
 PossibleDirectionChoice = function(_direction, _projectedX, _projectedY) constructor {
     direction = _direction;
     x = _projectedX;

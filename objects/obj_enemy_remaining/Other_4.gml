@@ -1,0 +1,1 @@
+enemies_remaining = global.level_table[global.current_level].enemy_count[global.current_difficulty];
