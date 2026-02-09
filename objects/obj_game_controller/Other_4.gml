@@ -3,6 +3,8 @@ if global.game_state == GAME_STATE.GAMEPLAY {
         audio_play_sound(mus_gameplay, 1, true);
     };*/
     
+    instance_create_depth(room_width/2, room_height/2, -100, obj_hud_ready);
+    
     instance_deactivate_layer("Instances_Easy")   
     instance_deactivate_layer("Instances_Normal")
     instance_deactivate_layer("Instances_Hard")
