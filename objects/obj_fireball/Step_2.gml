@@ -1,3 +1,5 @@
+SKIP_IF_PAUSED
+
 is_destroying_self_after_end_step = false;
 
 x += lengthdir_x(movement_speed, facing_direction);
