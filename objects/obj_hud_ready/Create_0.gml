@@ -13,3 +13,6 @@ var _levelNames = [
 
 
 text = _levelNames[global.current_level];
+
+audio_stop_all();
+audio_play_sound(mus_intro, 1, false);

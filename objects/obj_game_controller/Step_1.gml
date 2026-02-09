@@ -7,10 +7,3 @@ switch (global.game_state) {
         break;
     
 };
-
-
-if keyboard_check_pressed(ord("L")) {
-    global.current_level++;
-    go_to_level(global.current_level);
-};
-

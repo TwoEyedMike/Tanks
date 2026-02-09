@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"mus_gameplay",
+  "%Name":"mus_venus",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":1,
-  "compression":0,
+  "channelFormat":0,
+  "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":162.0,
+  "duration":25.69,
   "exportDir":"",
-  "name":"mus_gameplay",
+  "name":"mus_venus",
   "parent":{
     "name":"music",
     "path":"folders/music.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"mus_gameplay.ogg",
+  "soundFile":"mus_venus.ogg",
   "volume":1.0,
 }

@@ -18,3 +18,5 @@ if raft_powerup_frames_left > 0 {
 };
 
 shield_powerup_frames_left = max(shield_powerup_frames_left-1, 0)
+
+drill_powerup_frames_left = max(drill_powerup_frames_left-1, 0)

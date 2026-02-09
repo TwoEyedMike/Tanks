@@ -1,7 +1,8 @@
 if global.game_state == GAME_STATE.GAMEPLAY {
-    if !audio_is_playing(mus_gameplay) {
-        audio_play_sound(mus_gameplay, 1, true);
+    if !audio_is_playing(mus_intro) {
+        audio_play_sound(mus_intro, 1, true);
     };
+    
     
     instance_create_depth(room_width/2, room_height/2, -100, obj_hud_ready);
     instance_create_depth(0, 0, -50, obj_raft_effect);
