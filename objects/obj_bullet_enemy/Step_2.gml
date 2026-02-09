@@ -8,6 +8,11 @@ if place_meeting(x, y, obj_tank_player) {
     is_destroying_self_after_end_step = true;
 }; 
 
+if place_meeting(x, y, obj_objective) {
+    obj_objective.hitpoints -= damage;
+    is_destroying_self_after_end_step = true;
+};
+
 ds_list_destroy(_collidedInstancesList);
 
 if is_destroying_self_after_end_step {
