@@ -3,8 +3,22 @@ facing_direction = CARDINAL_DIRECTION.DOWN; //Not using built-in "direction" var
 movement_speed = 0.5; //How many pixels to move per frame while holding a movement input
 image_speed = 0; //Image speed 0 unless set to 1 while moving to make tank treads anim work.
 
-starting_hitpoints = 500;
+starting_hitpoints = 1000;
 hitpoints = starting_hitpoints;
+
+enemy_spawn_amount = get_value_by_difficulty(2, 4, 6);
+
+SpawnThreshold = function(_hitpoints) constructor {
+    hitpoints = _hitpoints;
+    is_spawned = false;
+};
+
+spawn_thresholds = [
+    new SpawnThreshold(750),
+    new SpawnThreshold(500),
+    new SpawnThreshold(250)
+];
+
 
 //Radial shot variables
 radial_shot_frequency = get_value_by_difficulty(240, 180, 120);
