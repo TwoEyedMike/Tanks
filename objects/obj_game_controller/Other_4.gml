@@ -1,7 +1,7 @@
 if global.game_state == GAME_STATE.GAMEPLAY {
-    if !audio_is_playing(mus_gameplay) {
+    /*if !audio_is_playing(mus_gameplay) {
         audio_play_sound(mus_gameplay, 1, true);
-    };
+    };*/
     
     instance_deactivate_layer("Instances_Easy")   
     instance_deactivate_layer("Instances_Normal")

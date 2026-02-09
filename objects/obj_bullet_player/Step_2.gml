@@ -3,7 +3,7 @@ event_inherited();
 
 var _collidedInstancesList = ds_list_create();
 
-instance_place_list(x, y, obj_tank_enemy, _collidedInstancesList, false);
+instance_place_list(x, y, [obj_tank_enemy, obj_tank_boss], _collidedInstancesList, false);
 
 while !ds_list_empty(_collidedInstancesList) {
     var _instance = _collidedInstancesList[| 0];
